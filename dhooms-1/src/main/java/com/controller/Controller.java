@@ -1,4 +1,4 @@
-package controller;
+package com.controller;
 
 import java.util.List;
 
@@ -25,7 +25,7 @@ public class Controller {
 	@RequestMapping(value="/products", method= RequestMethod.GET)
 	public @ResponseBody List<Product>getAllProducts()
 	{
-		System.out.println("in controller madeh ahe");
+		System.out.println("in controller madeh ahe ala and samajzzla");
 		//return pls.productListAllRecords();
 		return pldi.productListAllRecords();
 	}
